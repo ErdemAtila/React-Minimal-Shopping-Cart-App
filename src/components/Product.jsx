@@ -1,10 +1,10 @@
 
-function Product() {
+function Product({url}) {
 
   return (
     <>
     <div className="product">
-        <img src="https://cdn.akakce.com/z/apple/iphone-15.jpg" alt="" />
+        <img src={url} alt="" />
         <div>
             <p>IPhone 15</p>
             <p>549</p>

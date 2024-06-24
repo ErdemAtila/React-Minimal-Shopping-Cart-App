@@ -62,21 +62,13 @@
 
 
 
-  .cart-product {
-    height: 200px;
-    display: flex;
-    margin-bottom: 20px;
-  }
-  .cart-product img {
-    height: 200px;
-    width: 30%;
-  }
+
 
   .cart-container {
     position: fixed;
+    max-width: 300px;
     right: 0;
     top: 0;
-    flex: 0 0 25%;
     height: 100vh; /* Fixed height */
     overflow-y: auto; /* Enable vertical scrolling */
     box-sizing: border-box;
@@ -86,9 +78,19 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+  
   }
   .cart-container::-webkit-scrollbar {
     display: none;
+  }
+  .cart-product {
+    height: 100px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .cart-product img {
+    height: 100px;
+    width: 30%;
   }
 
 

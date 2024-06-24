@@ -26,6 +26,8 @@ function App() {
         <CartProduct url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />
         <CartProduct url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />
         <CartProduct url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />
+        <CartProduct url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />
+        <CartProduct url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />
 
       </div>
       </div>

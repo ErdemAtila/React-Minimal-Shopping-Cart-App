@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
 function Product({url}) {
 
@@ -9,7 +11,7 @@ function Product({url}) {
             <p>IPhone 15</p>
             <p>549</p>
         </div>
-        <button>Add to cart</button>
+        <button><FontAwesomeIcon icon={faCartShopping} /></button>
     </div>
     </>
   )

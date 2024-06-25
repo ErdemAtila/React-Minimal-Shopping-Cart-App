@@ -2,6 +2,9 @@ import Product from './components/Product'
 import CartProduct from './components/CartProduct'
 import './App.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+
 function App() {
 
   return (
@@ -9,7 +12,7 @@ function App() {
     <div className='main-container'>
       <div className='products'>
         <Product url="https://cdn.akakce.com/z/apple/iphone-15.jpg" />
-        <Product url="https://cdn.akakce.com/z/apple/iphone-15.jpg" />
+        <Product url="https://m.media-amazon.com/images/I/817xnvwK0PL.jpg" />
         <Product url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />
         <Product url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />
         <Product url="https://cdn.akakce.com/z/apple/iphone-15.jpg" />
@@ -19,10 +22,11 @@ function App() {
 
       </div>
       <div className='cart-container'>
-      <h2>CART</h2>
+      <h2>CART - <FontAwesomeIcon icon={faCartShopping} /></h2>
       <div>
         <CartProduct  url="https://cdn.akakce.com/z/apple/iphone-15.jpg" />
         <CartProduct  url="https://cdn.akakce.com/z/apple/iphone-15.jpg" />
+        <CartProduct  url="https://m.media-amazon.com/images/I/817xnvwK0PL.jpg" />
         <CartProduct url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />
         <CartProduct url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />
         <CartProduct url="https://m.media-amazon.com/images/I/51eOztNdCkL.jpg" />

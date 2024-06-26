@@ -43,24 +43,126 @@ const data = [
     },
     {
         id:8,
-        title: "PS4",
-        price: 199,
-        image: "ps4.jpg"
+        title: "PS3",
+        price: 99,
+        image: "ps3.jpg"
     },
     {
         id:9,
+        title: "Airpods",
+        price: 399,
+        image: "airpod.jpg"
+    },
+    {
+        id:10,
+        title: "Logitech Mouse",
+        price: 199,
+        image: "logitech_mouse.jpg"
+    },
+    {
+        id:11,
+        title: "Samsung Note",
+        price: 399,
+        image: "samsung_note.jpg"
+    },
+    {
+        id:12,
+        title: "Samsung Fold",
+        price: 199,
+        image: "samsung_fold.jpg"
+    },
+    {
+        id:13,
         title: "Sony Camera",
         price: 399,
         image: "sony_camera.jpg"
     },
     {
-        id:10,
+        id:14,
         title: "PS4",
         price: 199,
         image: "ps4.jpg"
     },
     {
-        id:11,
+        id:15,
+        title: "Sony Camera",
+        price: 399,
+        image: "sony_camera.jpg"
+    },
+    {
+        id:16,
+        title: "PS4",
+        price: 199,
+        image: "ps4.jpg"
+    },
+    {
+        id:17,
+        title: "Sony Camera",
+        price: 399,
+        image: "sony_camera.jpg"
+    },
+    {
+        id:18,
+        title: "Sony Camera",
+        price: 399,
+        image: "sony_camera.jpg"
+    },
+    {
+        id:19,
+        title: "PS4",
+        price: 199,
+        image: "ps4.jpg"
+    },
+    {
+        id:20,
+        title: "Sony Camera",
+        price: 399,
+        image: "sony_camera.jpg"
+    },
+    {
+        id:21,
+        title: "PS4",
+        price: 199,
+        image: "ps4.jpg"
+    },
+    {
+        id:22,
+        title: "Sony Camera",
+        price: 399,
+        image: "sony_camera.jpg"
+    },
+    {
+        id:23,
+        title: "PS4",
+        price: 199,
+        image: "ps4.jpg"
+    },
+    {
+        id:24,
+        title: "Sony Camera",
+        price: 399,
+        image: "sony_camera.jpg"
+    },
+    {
+        id:25,
+        title: "PS4",
+        price: 199,
+        image: "ps4.jpg"
+    },
+    {
+        id:26,
+        title: "Sony Camera",
+        price: 399,
+        image: "sony_camera.jpg"
+    },
+    {
+        id:27,
+        title: "PS4",
+        price: 199,
+        image: "ps4.jpg"
+    },
+    {
+        id:28,
         title: "Sony Camera",
         price: 399,
         image: "sony_camera.jpg"

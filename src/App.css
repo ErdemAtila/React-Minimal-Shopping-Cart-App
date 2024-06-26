@@ -21,7 +21,7 @@
     gap: 50px;
 
     flex-wrap: wrap;
-    justify-content:end;
+    justify-content:left;
     box-sizing: border-box;
     padding-right: 50px;
   }
